@@ -1,0 +1,40 @@
+
+/* DEBUG */
+
+body{
+  background-color: red
+}
+
+.pink{
+  background-color: pink;
+}
+.lightblue{
+  background-color: lightblue;
+}
+.blue{
+  background-color: blue;
+}
+.violet{
+  background-color: violet;
+}
+.purple{
+  background-color: purple;
+}
+
+
+
+.h100{
+  height: 100px;
+}
+
+.h300{
+  height: 300px;
+}
+
+.h400{
+  height: 400px;
+}
+
+.h500{
+  height: 500px
+}

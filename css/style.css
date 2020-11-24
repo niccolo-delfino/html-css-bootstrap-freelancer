@@ -44,6 +44,22 @@ body{
 
 /* STYLE */
 
+/* RULES */
+
+h1 {
+  text-transform: uppercase;
+}
+
+.ms_green {
+  background-color: #1abc9c;
+}
+
+.ms_text_white {
+  color: white;
+}
+
+
+  /* HEADER NAVBAR */
 .navbar.ms_navbar{
   background-color: #2c3e50;
   border:0;
@@ -70,12 +86,37 @@ font-size: 15px;
   color:#1abc9c;
 }
 
+/* JUMBOTRON */
+.jumbotron{
+  margin: 0;
+}
+
+.ms_star:before,
+.ms_star:after {
+  content: '';
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  border-radius:2px;
+  background-color: white;
+  margin: 0 20px;
+}
+
+.ms_star i {
+  font-size: 30px;
+  vertical-align: middle;
+}
 
 
 
 
 
-
+/* MEDIA */
+@media screen and (max-width:768px) {
+  .jumbotron  h1{
+    font-size: 40px;
+  }
+}
 
 
 

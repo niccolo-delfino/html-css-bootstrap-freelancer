@@ -197,6 +197,7 @@ color: #2C3E50;
 /* FOOTER */
 
 footer .footer_up{
+  padding: 45px;
   background-color: #3A546D;
 }
 
@@ -216,7 +217,10 @@ footer .footer_up i{
   margin-right: 5px;
 }
 
-
+footer .footer_down{
+  padding: 45px;
+  background-color: #2C3E50;
+}
 
 
 

@@ -53,6 +53,7 @@ h1 {
 h2{
   font-size: 40px;
   text-transform: uppercase;
+  margin: 50px 0 0 0;
 }
 
 .ms_green {
@@ -122,10 +123,6 @@ main .immagini{
   margin-bottom: 30px;
 }
 
-.immagini h2{
-  margin: 50px 0 0 0;
-}
-
 .immagini .ms_star:before,
 .immagini .ms_star:after {
   background-color: #2c3e50;
@@ -157,14 +154,40 @@ main .immagini{
 
 /* CONTACT */
 
-.contact .row input:not(#send), .contact .row textarea{
+section.contact{
+  margin-bottom: 50px; 
+}
+
+.contact .ms_star i {
+  margin: 20px 0;
+  color: #2c3e50;
+}
+
+.contact .ms_star:before,
+.contact .ms_star:after {
+  background-color: #2c3e50;
+}
+
+.contact .row input:not(#send),
+.contact .row textarea{
   border: 0px;
   border-bottom: 2px solid lightgrey;
   border-radius: 0px;
   box-shadow: none;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
+.contact .row input::placeholder,
+.contact .row textarea{
+font-size: 25px;
+font-weight: bold;
+color: #2C3E50;
+}
+
+.contact .row .btn{
+  font-size: 25px;
+  margin-top: 20px;
+}
 
 
 /* MEDIA */

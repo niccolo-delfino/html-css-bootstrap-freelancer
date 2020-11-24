@@ -1,9 +1,9 @@
 
 /* DEBUG */
 
-body{
+/* body{
   background-color: red
-}
+} */
 
 .pink{
   background-color: pink;
@@ -109,6 +109,10 @@ font-size: 15px;
 
 /* MAIN */
 
+main .immagini{
+  margin-bottom: 30px; 
+}
+
 .immagini h2{
   margin: 50px 0 0 0;
   font-size: 40px;
@@ -125,6 +129,11 @@ font-size: 15px;
   color: #2c3e50;
 }
 
+.immagini .portfolio_img img{
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
 
 
 

@@ -157,7 +157,7 @@ main .immagini{
 
 /* CONTACT */
 
-.contact .row input{
+.contact .row input:not(#send), .contact .row textarea{
   border: 0px;
   border-bottom: 2px solid lightgrey;
   border-radius: 0px;

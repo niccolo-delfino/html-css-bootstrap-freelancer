@@ -64,6 +64,10 @@ h2{
   color: white;
 }
 
+.ms_text_green {
+  color: #1abc9c;
+}
+
 .ms_nobcg{
   background-color: rgba(255, 255, 255, 0);
 }
@@ -143,10 +147,11 @@ main .immagini{
 
 .about p{
   margin: 20px 0;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .about .btn{
+  font-size: 20px;
   color: white;
   border-color: white;
   margin-bottom: 20px;
@@ -155,7 +160,7 @@ main .immagini{
 /* CONTACT */
 
 section.contact{
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
 }
 
 .contact .ms_star i {
@@ -188,6 +193,34 @@ color: #2C3E50;
   font-size: 25px;
   margin-top: 20px;
 }
+
+/* FOOTER */
+
+footer .footer_up{
+  background-color: #3A546D;
+}
+
+footer .footer_up h3{
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+footer .footer_up div{
+  font-size: 20px;
+}
+
+footer .footer_up i{
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+
+
+
+
+
 
 
 /* MEDIA */
